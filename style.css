@@ -1,0 +1,600 @@
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Audi Type', sans-serif;
+    box-sizing: border-box; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+*{ 
+    font-family: 'Audi Type', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: AudiType,sans-serif;
+    box-sizing: border-box; 
+}
+
+.MContainer{
+    display: flex;
+    width: 100%;
+    height:  60px;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+nav .containe{
+    width: 100%;
+}
+#bar{
+    margin: 20px;
+    display: none;
+}
+#Menu{
+    display: none;
+}
+#checking{
+    display: none;
+}
+#Logo{
+    height:24px ;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    }
+nav .navba{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.searchicn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 5vw;
+    height: 100%;
+    margin-right: 5vw;
+   
+}
+div ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+   }
+div ul li a{
+text-decoration: none;
+color: gray;
+}
+div ul li{
+    padding-right: 3vw;
+    list-style: none;
+}
+div ul li a:hover{
+    
+    color: rgb(211, 181, 181);
+    }
+.containe{
+    position: sticky;
+    top: 0PX;
+    left: 0px;
+} 
+  
+ /* .....................................making nav bar responsive .....................................*/
+@media (max-width:1200px){
+   
+
+.searchicn{
+    display: none;
+        }
+nav .nmenu ul{
+    position:fixed;
+    top: 50px;
+    left:-100%;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding-left: 5vw;
+    line-height: 25px;
+    background-color: white;
+  
+    
+    }
+nav #Logo img{
+    margin-right: 12vW;
+    }
+#bar{
+    padding-left: 18px;
+    margin: 10px;
+    display: inline;
+    }
+#Menu{
+    padding-top: 9px;
+    display: inline-block;
+    }
+#checking{
+    display: inline;
+    visibility: hidden;
+    }
+.a1{
+   
+    position: sticky;
+    text-align: left;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    }
+#Logo{
+        height:24px ;
+       padding-right: 40vw;
+    }
+
+div ul li a{
+    display: block; 
+    margin: 20px 0;
+   }
+ 
+input[type=checkbox]:checked + ul {
+    left:0%;
+    position:fixed;
+    }
+
+.Arrow-left{
+    display: inline-block;
+   
+   font-weight: 900;
+}  
+input[type=checkbox]:checked + #Logo {
+    display: none;
+    }
+    
+
+
+}
+                            /* Medea Quary Ends Hear */
+                            /* banner starting*/
+ .banner-Image{
+    background-image: url(Images/168_A8L-Launch_Banner_WC_1920X1920.webp);
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    }
+.img-container{
+    height: 600px;
+    width: auto;
+    } 
+    
+@media (max-width:1000px){
+    
+.btncontainer{
+   position: relative;
+    top: 500px;
+    left: 0%;
+    width: 100%;
+    padding-left:0px !important;
+ } 
+
+}
+.black{
+    background-color: black;
+    width: 100vw;
+    height: 75px;
+}
+.carousel-container1{
+    margin-left: 5vw;
+    min-height: 20vh;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+.wrapper{
+    width: 100%;
+    box-sizing: border-box; 
+  }
+  .carousel{
+    box-sizing: border-box; 
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+    
+  }
+  .carousel .card{
+    border: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 20px 0;
+    line-height: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box; 
+   
+    
+    /* border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2); */
+  }
+  
+  .owl-dots{
+    /* text-align: center; */
+    margin-top: 5px;
+  }
+  .owl-dot{
+    height: 1px;
+    width: 30px;
+    margin: 0 5px;
+    box-sizing: border-box; 
+    
+    
+    /* outline: none; */
+    /* border-radius: 14px;
+    border: 2px solid #0072bc!important; */
+    /* box-shadow: 0px 4px 15px rgba(0,0,0,0.2); */
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: #0072bc!important;
+  }
+  
+    
+    .box{
+        position: relative;
+        width:100vw;
+        object-fit: contain;
+        overflow: hidden;
+      margin-left: 0;
+      box-sizing: border-box;
+    }
+
+    .imag{
+        object-fit: cover;
+        width:100vw;
+        height:100%;
+        
+       
+    }
+    .e-tron{
+        object-fit: contain;
+        box-sizing: border-box;
+        display: flex;
+        font-family: 'Audi Type', sans-serif;
+        position: absolute;
+        top: 15em;
+        height: auto;
+        width: auto;
+        background-color:rgb(255, 255, 255);
+        min-height: 20em;
+        max-width: 600px;
+        padding-right: 2em;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: visible;
+        z-index: 9;
+        
+    }
+    .btn-start{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+    .e-tron-1{
+        background-color: black;
+        
+    }
+   
+    /* @media (max-width:600px){
+        .e-tron{
+
+            position: static;
+            width: auto;
+        
+        }
+    
+
+    } */
+
+    .augmented-reality{
+        width: 100vw;
+        display: flex;
+        /* height: 602px; */
+        /* background-color: rgb(255, 25, 255); */
+        position: relative;
+        /* top: 2000px; */
+        
+        margin: 0;
+        padding: 0;
+       
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        object-fit:contain;
+
+    }
+    .augmented-left-right{
+        flex: 1;
+        
+        padding-left: 30px;
+    }
+    
+    .augmented-left-right img{
+        
+        height: 620px; 
+        width: auto;
+    }
+    .contain{
+        padding-left: 0;
+        margin-left: 0;
+        width: 500px;
+        /* width: 600px; */
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        
+        margin-left: 0;
+    }
+    .btn-start{
+        padding-top: 100px;
+    }
+    .augmented-right{
+        padding-top: 300px;
+        /* padding-bottom: 200px; */
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .augmented-left{
+        /* padding-top: 300px; */
+        /* padding-bottom: 200px; */
+        flex-wrap: wrap; 
+    }
+    .augimg{
+        max-width: 100%;
+        margin-top: 70px;
+width: auto;
+height: 100%;
+object-fit: contain;
+    }
+
+@media (max-width:800px){
+    .augmented-reality{
+        display: flex;
+        flex-direction: column;
+        
+            }
+ .augmented-right{
+                padding-top: 50px;
+                padding-bottom: 50px;
+                
+            }
+            .forth-container{
+                display: flex;
+            flex-direction: column;
+            
+            }
+
+            .cards-contain{
+                
+                display: flex;
+                flex-direction: column;
+                padding:0em;
+                justify-content: center;
+            
+            }
+            .sixth-container{
+display: flex;
+flex-direction: column;
+            }
+}
+.forth-container{
+    display: flex;
+flex-wrap: wrap;
+
+}
+.forth-common-section{
+    max-width: 100%;
+display: flex;
+flex-wrap: wrap;
+
+}
+.forth-left-section{
+    padding: 2em;
+    padding-top: 23em;
+    background-color: aliceblue;
+    flex: 1.5;
+    background-color: black;
+    min-width: 60%;
+    max-width: 100%;
+
+}
+.forth-right-section{
+    background-color: aquamarine;
+    flex: 1;
+}
+.img-AppConnect{
+    
+    width: 100%;
+    max-width: 100%;
+    object-fit:none;
+    object-fit: cover;
+}
+.forth-container{
+    padding-top: 8em;
+    display: flex;
+    position: relative;
+}
+.b-tron-1{
+    background-color: black;
+    border: 2px solid white;
+}
+
+.card-image{
+width: auto;    
+height: auto;
+max-width: 100%;
+object-fit: contain;
+min-height: 200px;
+max-height: 200px;
+
+}
+.card-comn{
+    max-width: 100%;
+    max-height: 100%;
+    flex: 1;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+.cards-contain{
+    padding-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.link-card{
+    padding-left: 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+.card-Txt{
+    padding-left: 1em; 
+}
+.sixth-container{
+    padding-top: 36px;
+    max-width: 100%;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    display: flex;
+
+
+}
+.bottom-search-box{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color:#e2d8d8;
+    color: #8d8080;
+    min-width: 75%;
+    max-width: 100%;
+   
+    
+   
+}
+.stl{
+    max-width: 6em;
+    margin-bottom: 5em;
+}
+.sixth-comon{
+    flex: 1;
+    flex-wrap: wrap;
+    max-width: 100%;
+   
+
+}
+.left-6{
+    background-color:#e2d8d8;
+    padding-left: 2em;
+    padding-right: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.right-6 img{
+    /* min-width: 50%; */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:contain;
+    
+}
+.right-6{
+    min-width: 50%;
+    /* max-width: 100%; */
+    
+    object-fit:contain;
+    
+}
+.Eighth-container{
+    object-fit: contain;
+     width: 100%;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+ box-sizing: border-box;
+}
+.footer-link{
+    text-decoration: none;
+}
+.sub6dive{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: .8em;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+.sub6dive a:hover{
+    color: #8d8080;
+    
+}
+
+.Eighth-container a{
+    color: white;
+    text-decoration: none;
+   
+}
+.subdivsubs{
+    padding-top: 6em;
+    
+}
+.Eighth-container{
+    margin-top:2em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+}
+.Back2top{
+position:absolute;
+right: 2em;
+top: 2em;
+font-size: small;
+}
+.Back2top:hover{
+    color: #8d8080;
+    }
+.textsize{
+        font-size: 1.5em;
+    }
+    .subdiv2{
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 5em;
+        margin-right:6em;
+        flex-wrap: nowrap;
+    }
+    .subdiv2 i{
+        padding-right: 1em;
+    }
+    
+    .subdiv3{
+        padding: 2em;
+        display: block;
+    }
+    .subdiv4{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 4em;
+        
+    }
+
+
