@@ -443,8 +443,8 @@ height: auto;
 max-width: 100%;
 object-fit: contain;
 min-height: 200px;
-max-height: 200px;
-
+/* max-height: 200px;
+ */
 }
 .card-comn{
     max-width: 100%;
