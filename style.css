@@ -171,7 +171,7 @@ input[type=checkbox]:checked + #Logo {
     }
 .img-container{
     height: 600px;
-    width: auto;
+    /* width: auto; */
     } 
     
 @media (max-width:1000px){
@@ -187,7 +187,7 @@ input[type=checkbox]:checked + #Logo {
 }
 .black{
     background-color: black;
-    width: 100vw;
+    width: 100%;
     height: 75px;
 }
 .carousel-container1{
@@ -249,8 +249,6 @@ input[type=checkbox]:checked + #Logo {
     
     .box{
         position: relative;
-        width:100vw;
-        object-fit: contain;
         overflow: hidden;
       margin-left: 0;
       box-sizing: border-box;
@@ -271,10 +269,8 @@ input[type=checkbox]:checked + #Logo {
         position: absolute;
         top: 15em;
         height: auto;
-        width: auto;
         background-color:rgb(255, 255, 255);
         min-height: 20em;
-        max-width: 600px;
         padding-right: 2em;
         flex-direction: column;
         flex-wrap: wrap;
@@ -336,7 +332,7 @@ input[type=checkbox]:checked + #Logo {
     .contain{
         padding-left: 0;
         margin-left: 0;
-        width: 500px;
+        /* width: 500px; */
         /* width: 600px; */
     }
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
@@ -443,8 +439,8 @@ height: auto;
 max-width: 100%;
 object-fit: contain;
 min-height: 200px;
-/* max-height: 200px;
- */
+max-height: 200px;
+
 }
 .card-comn{
     max-width: 100%;
